@@ -22,3 +22,41 @@ body{
     --amarelo: #FAF408;
     --fonte: 'Permanent Marker', sans-serif;
 }
+.container-senha {
+    background-color: var(--bg-principal);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    margin-top: 80px;
+    background: var(--bg-principal);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
+#txtSenha {
+    background-color: var(--bg-principal);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+    font-family: var(--fonte);
+    width: 900px;
+}
+
+#txtSenha:focus {
+    outline: none;
+}
+.parametro{
+    background-color: var(--bg-principal);
+    border: 2px solid var(--borda);
+}
+.title{
+    font-size: 32px;
+}
+
+.subtitle{
+    font-size: 24px;
+}
+
+.container-titulo{
+    margin-top: 80px;
+    text-align: center;
+}
